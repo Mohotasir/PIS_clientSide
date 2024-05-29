@@ -1,0 +1,11 @@
+
+.swiper {
+    width: 100%; 
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
