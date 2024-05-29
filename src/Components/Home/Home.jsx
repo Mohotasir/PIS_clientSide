@@ -7,7 +7,7 @@ import NewsLetter from "../NewsLetter/NewsLetter";
 const Home = () => {
     const posts = useLoaderData();
     return (
-        <div className="">
+        <div className="max-w-screen-lg mx-auto">
             <Slider></Slider>
             <Allposts posts={posts}></Allposts>
             <NewsLetter></NewsLetter>
