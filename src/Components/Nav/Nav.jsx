@@ -80,7 +80,7 @@ const Nav = () => {
                     </div>
                     <Link to="/" className='flex items-center justify-center '>
                         <img className='w-[80px] h-[60px] ' src={logo} alt="" />
-                        <h1 className='text-2xl font-bold -ml-7'> <span className='text-bold text-4xl text-orange-500'>Q</span>me</h1>
+                        <h1 className='text-2xl font-bold -ml-7'> <span className='text-bold text-4xl text-orange-500'>Qe</span>me</h1>
                     </Link>
                 </div>
 
