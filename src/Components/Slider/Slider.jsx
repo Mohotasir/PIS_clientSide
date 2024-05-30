@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 const Slider = () => {
     return (
         <div className="bg-cover bgClr bg-no-repeat"  style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1))` }}>
-        <div className='lg:h-[80vh] container py-6 md:py-0 mx-auto flex flex-col-reverse items-center justify-center md:flex-row gap-6  '>
+        <div className='lg:h-[80vh] max-w-screen-xl mx-auto container py-6 md:py-0  flex flex-col-reverse items-center justify-center md:flex-row gap-6  '>
             <div className='md:w-1/2 poppin' >
                 <div className='text-center md:text-left'>
                     <h1 className='text-3xl md:text-4xl font-semibold text-white'> <span className='text-orange-500'>Discover Your Alternatives:</span> A Comprehensive Product Information Platform</h1>
